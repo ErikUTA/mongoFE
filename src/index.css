@@ -5,9 +5,123 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('http://www.mongodb.com/docs/assets/meta_generic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.body {
+  width: 100%;
+  height: auto;
+}
+
+.card-conteiner-top {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-conteiner {
+  width: 80%;
+  display: grid;
+  gap: 2rem;
+  grid-template-rows: 13rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+  margin-bottom: 50px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin {
+  margin: 5%;
+  text-align: center;
+}
+
+.card-post {
+  width: 300px;
+}
+
+.card {
+  font-weight: bold;
+  font-family: 'wendy-one';
+}
+
+.delete {
+  background: #D40000 !important;
+  color: white !important;  
+  border: solid #D40000 2px !important;
+}
+
+.delete:hover {
+  background: white !important;
+  border: solid #D40000 2px !important;
+  color: #D40000 !important;
+}
+
+.select {
+  background: #003153 !important;
+  color: white !important;
+  border: solid #003153 2px !important;
+}
+
+.select:hover {
+  background: white !important;
+  color: #003153 !important;
+  border: solid #003153 2px !important;
+}
+
+.edit {
+  background: #FF7900 !important;
+  color: white !important;
+  border: solid #FF7900 2px !important;
+}
+
+.edit:hover {
+  background: white !important;
+  color: #FF7900 !important;
+  border: solid #FF7900 2px !important;
+}
+
+.add {
+  background: #003153 !important;
+  color: white !important;
+  border: solid #003153 2px !important;
+}
+
+.add:hover {
+  background: white !important;
+  color: #004225 !important;
+  border: solid #004225 2px !important;
+}
+
+.buttonCenter {
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 15px;
+}
+
+.mb {
+  margin-bottom: 15px !important;
+}
+
+.pt {
+  padding-top: 15px !important;
+}
+
+.name {
+  background: #353535 !important;
+  color: white !important;
+}
+
+.title {
+  font-family: 'Poppins';
 }
